@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "https:www.google.comurl?sa=i&url=https%3A%2F%2Fsuarbarid.com%2F29f0659c%2Fsor-mn-thr-gmyl.html&psig=AOvVaw1hBbpLMBbTfUtwZ0bN1Gkv&ust=1669730275991000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMi5_ZGE0fsCFQAAAAAdAAAAABAT.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
