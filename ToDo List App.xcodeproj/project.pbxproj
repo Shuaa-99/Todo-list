@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2A44F0D299D1F7F00611667 /* TodosModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2A44F0B299D1F7F00611667 /* TodosModel.xcdatamodeld */; };
 		A2C88E932934E3E400B49D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C88E922934E3E400B49D79 /* AppDelegate.swift */; };
 		A2C88E952934E3E400B49D79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C88E942934E3E400B49D79 /* SceneDelegate.swift */; };
 		A2C88E9A2934E3E400B49D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C88E982934E3E400B49D79 /* Main.storyboard */; };
@@ -17,8 +18,8 @@
 		A2C88EB62934E3E500B49D79 /* ToDo_List_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C88EB52934E3E500B49D79 /* ToDo_List_AppUITestsLaunchTests.swift */; };
 		A2C88EC32934E61500B49D79 /* TodosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C88EC22934E61500B49D79 /* TodosVC.swift */; };
 		A2C88EC52934EF0500B49D79 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C88EC42934EF0500B49D79 /* TodoCell.swift */; };
-		A2C88EC72934F33400B49D79 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C88EC62934F33400B49D79 /* Todo.swift */; };
 		A2C88EC9293502A900B49D79 /* TodoDeetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C88EC8293502A900B49D79 /* TodoDeetailsVC.swift */; };
+		A2E8EC06299E6CC7008A7BBF /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8EC05299E6CC7008A7BBF /* Todo.swift */; };
 		A2F314FD2937937100C1C646 /* NewTodoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F314FC2937937100C1C646 /* NewTodoVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2A44F0C299D1F7F00611667 /* TodosModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodosModel.xcdatamodel; sourceTree = "<group>"; };
 		A2C88E8F2934E3E400B49D79 /* ToDo List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2C88E922934E3E400B49D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2C88E942934E3E400B49D79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,8 +56,8 @@
 		A2C88EB52934E3E500B49D79 /* ToDo_List_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_List_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A2C88EC22934E61500B49D79 /* TodosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosVC.swift; sourceTree = "<group>"; };
 		A2C88EC42934EF0500B49D79 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
-		A2C88EC62934F33400B49D79 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		A2C88EC8293502A900B49D79 /* TodoDeetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDeetailsVC.swift; sourceTree = "<group>"; };
+		A2E8EC05299E6CC7008A7BBF /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		A2F314FC2937937100C1C646 /* NewTodoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,7 +116,8 @@
 				A2C88EC8293502A900B49D79 /* TodoDeetailsVC.swift */,
 				A2C88EC42934EF0500B49D79 /* TodoCell.swift */,
 				A2C88EC22934E61500B49D79 /* TodosVC.swift */,
-				A2C88EC62934F33400B49D79 /* Todo.swift */,
+				A2E8EC05299E6CC7008A7BBF /* Todo.swift */,
+				A2A44F0B299D1F7F00611667 /* TodosModel.xcdatamodeld */,
 				A2C88E9B2934E3E500B49D79 /* Assets.xcassets */,
 				A2C88E9D2934E3E500B49D79 /* LaunchScreen.storyboard */,
 				A2C88EA02934E3E500B49D79 /* Info.plist */,
@@ -273,9 +276,10 @@
 				A2C88E932934E3E400B49D79 /* AppDelegate.swift in Sources */,
 				A2F314FD2937937100C1C646 /* NewTodoVC.swift in Sources */,
 				A2C88EC32934E61500B49D79 /* TodosVC.swift in Sources */,
+				A2E8EC06299E6CC7008A7BBF /* Todo.swift in Sources */,
 				A2C88E952934E3E400B49D79 /* SceneDelegate.swift in Sources */,
+				A2A44F0D299D1F7F00611667 /* TodosModel.xcdatamodeld in Sources */,
 				A2C88EC52934EF0500B49D79 /* TodoCell.swift in Sources */,
-				A2C88EC72934F33400B49D79 /* Todo.swift in Sources */,
 				A2C88EC9293502A900B49D79 /* TodoDeetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,6 +616,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2A44F0B299D1F7F00611667 /* TodosModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2A44F0C299D1F7F00611667 /* TodosModel.xcdatamodel */,
+			);
+			currentVersion = A2A44F0C299D1F7F00611667 /* TodosModel.xcdatamodel */;
+			path = TodosModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A2C88E872934E3E400B49D79 /* Project object */;
 }

@@ -39,6 +39,7 @@ class TodoDeetailsVC: UIViewController {
     func setuoUI (){
         todoDetailsLabel.text = todo.details
         todiTitleLablel.text = todo.title
+        todoImageView.image = todo.image  
     }
     @IBAction func editTodoButtonClicked(_ sender: Any) {
         if let viewController = storyboard?.instantiateViewController(withIdentifier: "NewTodoVC") as? NewTodoVC {
